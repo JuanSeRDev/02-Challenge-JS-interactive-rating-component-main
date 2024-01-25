@@ -17,7 +17,7 @@ const clase = document.querySelectorAll(".number");
     })
 }) */
 
-/* //*ESTA OPCION SI FUNCIONO CORRECTAMENTE PERO YA LO HICE CON CSS
+//*ESTA OPCION SI FUNCIONO CORRECTAMENTE PERO YA LO HICE CON CSS
 const seleccion = document.querySelectorAll(".calificacion-n");
 const clase = document.querySelectorAll(".number");
 
@@ -29,7 +29,7 @@ seleccion.forEach((cadaSeleccion, i)=>{
         })
         clase[i].classList.add("active")
     })
-}) */
+})
 
 const calificacion = document.querySelector(".calificacion");
 const selected = document.querySelector(".selected");
