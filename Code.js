@@ -40,9 +40,11 @@ const container2 = document.querySelector(".container-2")
 calificacion.addEventListener("click", e=>{
     let numberSelecter = e.target.innerText;
     selected.innerText = numberSelecter
-    submitBTN.addEventListener("click",()=>{
-        container.style.display = "none";
-        container2.style.display ="flex"
-    })
+    if(numberSelecter > 0 || numberSelecter <=5){
+        submitBTN.addEventListener("click",()=>{
+            container.style.display = "none";
+            container2.style.display ="flex"
+        })
+    }
 });
 
